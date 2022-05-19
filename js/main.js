@@ -1,11 +1,13 @@
 //The user will enter a cocktail. Get a cocktail name, photo, and instructions and place them in the DOM
 
-document.querySelector("button").addEventListener('click', startDrink)
+document.querySelector("form").addEventListener('submit', startDrink)
 
 
 
-function startDrink() {
+function startDrink(event) {
 
+    event.preventDefault();
+    
     let drinkName = document.querySelector('input').value;
 
     drinkName = drinkName.replace(' ', '_');
@@ -49,7 +51,6 @@ function swapDrinks(drinks) {
         if(drinks.length === 1) {
             return;
         }
-        
         
         i < drinks.length -1 ? i++ : i = 0;
         
