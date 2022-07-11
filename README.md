@@ -5,5 +5,7 @@
 
 ### If search returns multiple drinks, app cycles through them all.
 
+### Added new branch to show all results in their own elements.
+
 ## TODO
 ### add buttons to move forward and back
