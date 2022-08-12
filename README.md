@@ -3,7 +3,7 @@ Application to take in a user inputed adult beverage and return the image, name,
 
 **Link to project:** [https://richernote.github.io/CocktailDB/]
 
-<img src="./Capture.PNG" width="300">
+<img src="./Capture.PNG" width="500">
 
 ## How It's Made:
 
